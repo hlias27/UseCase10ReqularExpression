@@ -9,7 +9,7 @@ namespace UseCase10.RegularExpression
 		/// <summary>
 		/// Holds Regular Expression
 		/// </summary>
-		private const string RegularExpression = @"(?=.{{1,{0}}})^(?=.*?\d)(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[!""#$%&'()*+,-./:;<=>?@[\]^_`{{|}}~])\S+$";
+		private const string RegularExpression = @"^(?=^.{{5,{0}}}$)(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!""#$%&'()*+,-./:;<=>?@[\]^_`{{|}}~])[\S]+$";
 		
 		#endregion
 
